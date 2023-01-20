@@ -101,10 +101,10 @@ a
 .Main-content
 {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     width: 50%;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 .info-header
 {
@@ -113,30 +113,24 @@ a
     color: #1F2937;
     margin-top: 12px;
 }
-.image
+.perks
 {
+    width: 200px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 36px;
-    margin-top: 24px;
+    margin: 48px;
 }
 img
 {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 8px;
+    margin: 36px;
+    border: 2px solid black;
 }
-.text
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 36px;
-}
-p
-{
-    width: 100px;
+p{
     text-align: center;
 }
 .review-section
